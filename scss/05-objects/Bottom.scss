@@ -1,0 +1,29 @@
+.Bottom {
+    background: #141e30; /* fallback for old browsers */
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-size: 1rem;
+    color:white;
+    &-container {
+        display: flex;
+        justify-content: space-around;
+        padding: $space-m;
+    }
+    &-link {
+        color: white;
+        &:hover {
+            color: white;
+        }
+    }
+    &-right, &-left {
+        flex-basis: 50%;
+    }
+    &-right {
+        text-align: right;
+    }
+    &-icon {
+        display: inline-block;
+        transform: translateY(3px);
+        padding: 0 $space-xs;
+        font-size: 1rem;
+    }
+}

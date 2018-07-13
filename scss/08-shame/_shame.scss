@@ -1,0 +1,8 @@
+.ParallaxFooter--spacer2 {
+    display: none;
+    @include large-screen {
+        display: block;
+        height: 360px;
+
+    }
+}

@@ -8,6 +8,10 @@ import HeroImage from '../components/HeroImage'
 import CompanyOverview from '../components/CompanyOverview'
 import Access from '../components/Access'
 import Footer from '../components/Footer'
+import Btn from '../components/Btn'
+import Facility from '../components/Facility/Facility.js'
+
+import "../scss/styles.scss"
 
 export default () => (
     <Home>
@@ -19,16 +23,20 @@ export default () => (
             <div className="Hero-image"></div>
             <HeroImage/>
             <CompanyOverview/>
-            <CTA/>
+            <section className="Facilities container">
+                <h3>施設概要</h3>
+                <Facility/>
+                <Btn url="facility" text="詳細"/>
+            </section>
+            <section className="CTAsection">
+                 <CTA/>
+            </section>
             <Access/>
            
             <Footer/>
 
         </div>
-        <style jsx global> { `
-        `
-        }
-        </style>
+     
     </Home>
   
 )

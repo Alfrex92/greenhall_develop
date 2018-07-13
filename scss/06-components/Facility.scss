@@ -1,0 +1,41 @@
+.Facility {
+    // display: grid;
+    // grid-template-rows: 1fr;
+    // grid-template-columns: repeat(6, [col] 1fr);
+    // grid-gap: 2%;
+   &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+    &-item {
+       
+        flex-basis: 48%;
+        margin-bottom: $space-m;
+        &:last-of-type {
+            margin: 0 auto;
+        }
+    }
+    &-room, &-capacity {
+        text-align: center;
+    }
+    &-room {
+        margin: $space-s 0;
+        color: colors-map($colors,green,secondary);
+        line-height: 1rem;
+        @include large-screen { 
+            font-size: $t3;
+            // line-height: $lh-t3;
+        }
+    }
+    &-img {
+        width: 100%;
+        height: 7.5rem;
+        @include medium-screen { 
+            height: 200px;
+        }
+    }
+  
+
+    
+}
