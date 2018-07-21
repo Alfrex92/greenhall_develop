@@ -33,6 +33,7 @@
 .ComponentSeparation {
     margin-bottom: $space-l;
     @include large-screen {
-        margin-bottom: $space-xl*2;
+        margin-bottom: $space-xl;
     }
 }
+

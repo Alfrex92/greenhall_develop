@@ -11,11 +11,6 @@
         
     },
     {
-        "room" : "Room 302",
-        "capacity" : "約30名",
-        "image" : "room-302"
-    },
-    {
         "room" : "Room 304",
         "capacity" : "約50名",
         "image" : "room-304"

@@ -31,6 +31,8 @@
 @import
     '05-objects/page',
     '05-objects/Bottom',
+    '05-objects/Logo',
+    '05-objects/Navbar',
     '05-objects/btn',
     '05-objects/preloader';
 
@@ -38,7 +40,11 @@
 
 @import
     '06-components/HeroImage',
-    '06-components/Facility';
+    '06-components/Facility',
+    '06-components/Access',
+    '06-components/Cover',
+    '06-components/Services',
+    '06-components/CTA';
 
 // 07. Utilities– utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
 @import

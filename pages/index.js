@@ -5,10 +5,11 @@ import CTA from '../components/CTA'
 import GlobalStyles from '../components/GlobalStyles'
 import Head from 'next/head'
 import HeroImage from '../components/HeroImage'
-import CompanyOverview from '../components/CompanyOverview'
+import Features from '../components/Features'
 import Access from '../components/Access'
 import Footer from '../components/Footer'
 import Btn from '../components/Btn'
+import Services from '../components/Services'
 import Facility from '../components/Facility/Facility.js'
 
 import "../scss/styles.scss"
@@ -22,9 +23,10 @@ export default () => (
         <div>
             <div className="Hero-image"></div>
             <HeroImage/>
-            <CompanyOverview/>
-            <section className="Facilities container">
-                <h3>施設概要</h3>
+            <Features/>
+            <Services/>
+            <section className="Facilities container ComponentSeparation">
+                <h3 className="SectionHeader">施設概要</h3>
                 <Facility/>
                 <Btn url="facility" text="詳細"/>
             </section>

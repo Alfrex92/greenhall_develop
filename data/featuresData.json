@@ -1,0 +1,16 @@
+[   {
+        "title" : "Unique Location",
+        "info" :"東横線大井町線　自由が丘徒歩3分",
+        "img" : "green-hall_terrace",
+        "alt" : "Green Hall terrace",
+        "caption":"テラスからは富士山が見えます"
+
+    },
+    {
+        "title" : "Relaxing Atmosphere",
+        "info" : "テキストテキストテキスト",
+        "img" : "green-hall_suikinkutsu",
+        "alt" : "Green Hall Suikinkutsu",
+        "caption": "テキストテキストテキスト"
+    }
+]

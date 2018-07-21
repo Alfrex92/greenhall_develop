@@ -1,21 +1,27 @@
 [
     {
-        "service": "写真撮影"
+        "service": "写真撮影",
+        "name" : "photoshoot"
     },
     {
-        "service": "会議"
+        "service": "会議",
+        "name": "meeting"
     },
     {
-        "service": "イベント"
+        "service": "イベント",
+        "name" :"event"
     },
     {
-        "service": "展覧会"
+        "service": "展覧会",
+        "name" :"exhibition"
     },
     {
-        "service": "授業"
+        "service": "授業",
+        "name" :"classroom"
     },
     {
-        "service": "その他"
+        "service": "その他",
+        "name" :"other"
     }
 
 ]

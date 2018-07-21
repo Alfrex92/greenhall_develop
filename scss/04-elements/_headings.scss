@@ -50,13 +50,13 @@ small,
 }
 
 
-.Headline {
+.SectionHeader {
     margin-bottom: $space-m;
     text-align: center;
-    color: colors-map($colors,pink,base);
-    font-weight: 100;
-    font-family: $fontTitle;
+    color: colors-map($colors,green,base);
+    @include font(title3);
     @include large-screen {
         margin-bottom: $space-l;
+        @include font(title2);
     }
 }
