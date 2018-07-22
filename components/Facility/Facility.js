@@ -14,6 +14,7 @@ const Facility = () => (
                         <img src={`../../static/img/${facility.image}.jpg`}   className="Facility-img" alt={`自由が丘グリーンホール ${facility.room} `}/>
                         <p className="Facility-room">{facility.room}</p>
                         <p className="Facility-capacity">収容人数：{facility.capacity}</p>
+                        <p className="Facility-use">利用:{facility.use}</p>
                     </li>
                 </React.Fragment>
             )

@@ -20,8 +20,7 @@ export default () => (
         <Head>
             <meta name="description" content="testing the description of this " />
         </Head>
-        <div>
-            <div className="Hero-image"></div>
+        <div className="Index">
             <HeroImage/>
             <Features/>
             <Services/>

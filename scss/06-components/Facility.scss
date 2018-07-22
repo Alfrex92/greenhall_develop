@@ -8,15 +8,13 @@
     &-item {
         flex-basis: 48%;
         margin-bottom: $space-m;
+        text-align: center;
         &:last-of-type {
-            margin: 0 auto;
+            margin-bottom: 0;
         }
         @include large-screen { 
             margin-bottom: $space-l;
         }
-    }
-    &-room, &-capacity {
-        text-align: center;
     }
     &-room {
         margin: $space-s 0;
@@ -31,7 +29,7 @@
         height: 7.5rem;
         border-radius: $space-m;
         @include medium-screen { 
-            height: 200px;
+            height: 250px;
         }
     }
   

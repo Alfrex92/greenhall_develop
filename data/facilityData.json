@@ -2,22 +2,26 @@
     {
         "room" : "Room 201",
         "capacity" : "約30名",
-        "image" : "room-201"
+        "image" : "room-201",
+        "use": "授業、セミナー等"
     },
     {
         "room" : "Room 203",
         "capacity" : "約30名",
-        "image" : "room-203"
+        "image" : "room-203",
+        "use": "授業、セミナー等"
         
     },
     {
         "room" : "Room 304",
         "capacity" : "約50名",
-        "image" : "room-304"
+        "image" : "room-304",
+        "use": "パーティ、セミナー、カフェ等"
     },
     {
         "room" : "Room 401",
         "capacity" : "約50名",
-        "image" : "room-401"
+        "image" : "room-401",
+        "use": "パーティ、展覧会、セミナー等"
     }
 ]

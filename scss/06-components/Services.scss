@@ -13,6 +13,7 @@
         }
         @include large-screen { 
             flex-basis: 33%;
+            margin-bottom: $space-l;
         }
     }
 
