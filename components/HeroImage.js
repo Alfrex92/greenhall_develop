@@ -1,5 +1,3 @@
-
-
 export default () => (
 
     <div className="Cover ComponentSeparation">

@@ -9,14 +9,34 @@
         "room" : "Room 203",
         "capacity" : "約30名",
         "image" : "room-203",
-        "use": "授業、セミナー等"
+        "use": "授業、セミナー等",
+        "price" :"1,000円/1時間　500円/30分"
         
     },
     {
         "room" : "Room 304",
+        "overview" : "テラスからは富士山が見えます。パーティ仕様・スポーツ観戦用大型TVモニター、大型冷蔵庫、自動製氷機、電子レンジ利用可。51.48平方m",
         "capacity" : "約50名",
         "image" : "room-304",
-        "use": "パーティ、セミナー、カフェ等"
+        "use": "パーティ、セミナー、カフェ等",
+        "price" :"1,000円/1時間　500円/30分",
+        "size" : "51㎡（15坪",
+        "height" : "2.2m",
+        "picture" : [
+            "green-hall_room-304_picture-1", "green-hall_room-304_picture-2","green-hall_room-304_picture-3" 
+            ],
+        "calendar" : "https://calendar.google.com/calendar/embed?src=j32l1s791av4hc0giibbimpdco%40group.calendar.google.com&amp;ctz=Asia/Tokyo",
+        "amenities" : {
+            "equipment" : {
+                "printer" : true,
+                "photocopier" : true, 
+                "scanner" : true
+            },
+            "food" : {
+                "kitchen" : true,
+                "free-coffe" : true
+            }
+        }
     },
     {
         "room" : "Room 401",
