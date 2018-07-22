@@ -1,8 +1,7 @@
 export default (props) => {
-    const myRoom = props.facilityData.find (e => e.room === props.roomNumber),
-    mypics = myRoom.picture;
+    const mypics = props.room.picture;
     return (
-        <ul className="RoomPics">
+        <ul className="RoomPics container ComponentSeparation">
         {
             mypics.map((pics,index) => (
                 <li className="RoomPics-item" key={pics}>

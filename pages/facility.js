@@ -1,15 +1,17 @@
 import Home from '../components/Home.js'
-import RoomOverview  from '../components/RoomOverview'
-import RoomPics  from '../components/RoomPics'
-import facilityData from '../data/facilityData.json'
+import Head from 'next/head'
+import Room  from '../components/Room'
 
 
 export default () => (
     <Home>
-       <p>This is the facility page</p>
-       <RoomOverview facilityData = {facilityData} roomNumber = 'Room 304' />
-       <RoomPics facilityData = {facilityData} roomNumber = 'Room 304' />
-       <p>ご利用料金</p>
+        <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" class="next-head"/>
+        <meta name="description" content="testing the description of this " />
+        </Head>
+        <p>This is the facility page</p>
+        <Room roomNumber = 'Room 304' />
+        <p>ご利用料金</p>
     </Home>
 )
 
