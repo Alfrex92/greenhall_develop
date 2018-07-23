@@ -3,7 +3,8 @@
         "room" : "Room 201",
         "capacity" : "約30名",
         "image" : "room-201",
-        "use": "授業、セミナー等"
+        "use": "授業、セミナー等",
+        "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=m1aick8rp08tfn9la6u15ofoq4%40group.calendar.google.com&amp;ctz=Asia/Tokyo"
     },
     {
         "room" : "Room 203",
@@ -25,18 +26,25 @@
         "picture" : [
             "green-hall_room-304_picture-1", "green-hall_room-304_picture-2","green-hall_room-304_picture-3" 
             ],
-        "calendar" : "https://calendar.google.com/calendar/embed?src=j32l1s791av4hc0giibbimpdco%40group.calendar.google.com&amp;ctz=Asia/Tokyo",
-        "amenities" : {
-            "equipment" : {
-                "printer" : true,
-                "photocopier" : true, 
-                "scanner" : true
+        "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=vhv08gpb7tpnrh6g626hk9ep9o%40group.calendar.google.com&ctz=Asia/Tokyo",
+        "amenities": [
+            {
+                "name" : "equipment",
+                "value": ["Printer", "Photocopier", "Scanner"]
             },
-            "food" : {
-                "kitchen" : true,
-                "free-coffe" : true
+            {
+                "name" : "food",
+                "value":  ["Kitchen", "Free Coffee / Tea"]
+            },
+            {
+                "name" : "seats",
+                "value": ["Desks", "Ergonomic chairs"]
+            },
+            {
+                "name" : "others",
+                "value": ["High Speed Internet", "Personal Lockers"]
             }
-        }
+        ]
     },
     {
         "room" : "Room 401",

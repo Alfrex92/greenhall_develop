@@ -1,5 +1,7 @@
 import RoomOverview  from '../components/RoomOverview'
 import RoomPics  from '../components/RoomPics'
+import RoomAgenda  from '../components/RoomAgenda'
+import Amenities  from '../components/Amenities'
 import facilityData from '../data/facilityData.json'
 
 export default (props) => {
@@ -8,6 +10,8 @@ export default (props) => {
         <div className="Room">
             <RoomOverview room = {myRoom} />
             <RoomPics room = {myRoom} />
+            <RoomAgenda room = {myRoom} />
+            <Amenities room = {myRoom} />
         </div>
     )
 }
