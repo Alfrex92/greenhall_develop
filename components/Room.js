@@ -9,9 +9,9 @@ export default (props) => {
     return (
         <div className="Room">
             <RoomOverview room = {myRoom} />
+            <Amenities room = {myRoom} />
             <RoomPics room = {myRoom} />
             <RoomAgenda room = {myRoom} />
-            <Amenities room = {myRoom} />
         </div>
     )
 }

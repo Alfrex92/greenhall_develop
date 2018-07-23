@@ -29,19 +29,19 @@
         "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=vhv08gpb7tpnrh6g626hk9ep9o%40group.calendar.google.com&ctz=Asia/Tokyo",
         "amenities": [
             {
-                "name" : "equipment",
+                "name" : "Equipment",
                 "value": ["Printer", "Photocopier", "Scanner"]
             },
             {
-                "name" : "food",
+                "name" : "Food",
                 "value":  ["Kitchen", "Free Coffee / Tea"]
             },
             {
-                "name" : "seats",
+                "name" : "Seats",
                 "value": ["Desks", "Ergonomic chairs"]
             },
             {
-                "name" : "others",
+                "name" : "Others",
                 "value": ["High Speed Internet", "Personal Lockers"]
             }
         ]

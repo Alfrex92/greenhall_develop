@@ -8,7 +8,7 @@ const Facility = () => (
     {
         FacilityData.map((facility, index) => {
             return (
-                // I do not use fragment i just use because i want it to test it 
+                // I do not need to use fragment i just use because i want it to test it 
                 <React.Fragment key={facility.image}>
                     <li className="Facility-item">
                         <img src={`../../static/img/${facility.image}.jpg`}   className="Facility-img" alt={`自由が丘グリーンホール ${facility.room} `}/>

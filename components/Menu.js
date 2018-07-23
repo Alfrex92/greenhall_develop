@@ -1,4 +1,5 @@
 import React from 'react'
+import MobileMenu from './MobileMenu'
 
 
 class Menu extends React.Component {
@@ -10,20 +11,16 @@ class Menu extends React.Component {
           openModal: !this.state.openModal }
           
         );   
-        console.log(this.state.openModal)  
       };
 
     render(props) {
         return (
-            <div className="Menu" onClick={this.onClick}>
-                <ul className="Menu-list">
-                    <li className="Menu-item">
-                    Testinggggggg
-                    
-                    {this.state.openModal && <p>Hello</p> }
-                    <a href="" className="Menu-link"></a></li>
-                </ul>
-            </div>
+            <React.Fragment>
+                <div className="Menu" onClick={this.onClick}>
+                  <i className="i-menu"></i>
+                </div>
+                {this.state.openModal && <MobileMenu openModal={this.state.openModal} onClick={this.onClick}/> }
+            </React.Fragment>
         )
     }
 }

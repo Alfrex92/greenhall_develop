@@ -1,12 +1,12 @@
 export default (props) => {
 
     return (
-        <div className="Amenities">
+        <div className="Amenities container ComponentSeparation">
          {
             props.room.amenities.map((data,index) => (
-                <div className="Amenities-list" key={index}>
-                    <p>{data.name}</p>
-                    <ul>
+                <div className="Amenities-single" key={index}>
+                    <p className="Amenities-title">{data.name}</p>
+                    <ul className="Amenities-list">
                     {data.value.map((value,index)=> (
                         <li key={index}>{value}</li>
                     ))}
@@ -14,7 +14,6 @@ export default (props) => {
                 </div>
             ))
         }   
-        { console.log(props.room.amenities)}
         </div>
     )
 } 

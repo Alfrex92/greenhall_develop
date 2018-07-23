@@ -1,0 +1,10 @@
+.Amenities {
+    &-title {
+        font-weight: 700;
+    }
+    &-single {
+        margin-bottom: $space-m;
+        padding: $space-m;
+        border: 1px solid #d9dadb;
+    }
+}

@@ -1,5 +1,7 @@
 export default () => (
-    <footer>
-        <p>hello</p>
+    <footer className="Bottom">
+        <div className="Bottom-container">
+            <p>自由が丘Green Hall　- 緑陰のCoworking & Rental Space </p>
+        </div>
     </footer>
 )

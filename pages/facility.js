@@ -1,7 +1,8 @@
 import Home from '../components/Home.js'
 import Head from 'next/head'
 import Room  from '../components/Room'
-
+import Access from '../components/Access'
+import Footer from '../components/Footer'
 
 export default () => (
     <Home>
@@ -11,7 +12,8 @@ export default () => (
         </Head>
         <p>This is the facility page</p>
         <Room roomNumber = 'Room 304' />
-        <p>ご利用料金</p>
+        <Access/>
+        <Footer/>
     </Home>
 )
 

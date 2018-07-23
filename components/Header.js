@@ -12,17 +12,22 @@ const linkStyle = {
               <img src="/../static/img/logo.png" alt="自由が丘グリーンホール ロゴ" className="Logo-img"/>
             </a>
           </Link>
-          <Menu/>
-          <Link href="/facility">
+          <div className="Navbar-menu">
+            <Menu/>
+          </div>
+          <div className="Navbar-right">
+            <Link href="/facility">
             <a style={linkStyle}>施設概要</a>
-          </Link>
-          <Link href="/faq">
+            </Link>
+            <Link href="/faq">
             <a style={linkStyle}>よくある質問</a>
-          </Link>
-          <a href="#access">アクセス</a>
-          <Link href="/reserve">
+            </Link>
+            <a href="#access">アクセス</a>
+            <Link href="/reserve">
             <a  style={linkStyle}>予約</a>
-          </Link>
+            </Link>
+          </div>
+         
       </div>
   )
   
