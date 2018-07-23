@@ -1,0 +1,8 @@
+.Dropdown {
+    &-panel {
+        display: block;
+        max-height: 0;
+        transition: max-height .4s;
+        overflow: hidden;
+    }
+}

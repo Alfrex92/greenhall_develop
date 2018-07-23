@@ -8,7 +8,8 @@ class Menu extends React.Component {
       };
       onClick = () => {
         this.setState({ 
-          openModal: !this.state.openModal }
+          openModal: !this.state.openModal
+         }
           
         );   
       };

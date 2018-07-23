@@ -1,10 +1,13 @@
 import Link from 'next/link'
+import Dropdown from './Dropdown'
+
 
 export default () => (
     <div className="Links">
         <Link href="/">
             <a>Home</a>
         </Link>
+        <Dropdown/>
         <Link href="/facility">
             <a>施設概要</a>
         </Link>
