@@ -2,18 +2,24 @@ export default (props) => {
 
     return (
         <div className="Amenities container ComponentSeparation">
-         {
-            props.room.amenities.map((data,index) => (
-                <div className="Amenities-single" key={index}>
-                    <p className="Amenities-title">{data.name}</p>
-                    <ul className="Amenities-list">
-                    {data.value.map((value,index)=> (
-                        <li key={index}>{value}</li>
-                    ))}
-                    </ul>
-                </div>
-            ))
-        }   
+            <h2 className="SectionHeader">アメニティ</h2>
+            <div className="Amenities-container">
+            {
+                props.room.amenities.map((data,index) => (
+                    <div className="Amenities-single" key={index}>
+                        <p className="Amenities-title">{data.name}</p>
+                        <ul className="Amenities-list">
+                        {data.value.map((value,index)=> (
+                            <li key={index}>
+                                <i className="i-check Amenities-icon"></i>
+                                {value}
+                            </li>
+                        ))}
+                        </ul>
+                    </div>
+                ))
+            }   
+            </div>
         </div>
     )
 } 

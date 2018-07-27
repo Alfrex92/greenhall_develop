@@ -6,6 +6,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <link rel="stylesheet" href="/_next/static/style.css" />
+          <link href="https://file.myfontastic.com/i6DDCMAgr8vZtvBZfZob6f/icons.css" rel="stylesheet"/>
         </Head>
         <body>
           <Main />

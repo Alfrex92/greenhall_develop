@@ -24,13 +24,28 @@
             font-size: $t3;
         }
     }
+
+    &-illustration {
+        position: relative;
+    }
     &-img {
         width: 100%;
         height: 7.5rem;
-        border-radius: $space-m;
+        border-radius: $space-s;
         @include medium-screen { 
             height: 250px;
         }
+    }
+
+    &-type {
+        position: absolute;
+        right: 0;
+        color: white;
+        background-color: rgba(0,198,154,.7);
+        border-radius: .5rem;
+        padding: .1rem;
+        font-size: 14px;
+        top: 0;
     }
   
 

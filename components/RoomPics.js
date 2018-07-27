@@ -2,7 +2,7 @@ export default (props) => {
     const mypics = props.room.picture;
     return (
         <div className="RoomPics container">
-            <h2 className="SectionHeader">Photos</h2>
+            <h2 className="SectionHeader">写真</h2>
             <ul className="RoomPics-list  ComponentSeparation">
             {
                 mypics.map((pics,index) => (
