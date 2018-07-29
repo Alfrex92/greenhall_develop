@@ -3,16 +3,20 @@ import RoomPics  from '../components/RoomPics'
 import RoomAgenda  from '../components/RoomAgenda'
 import Amenities  from '../components/Amenities'
 import MultiTimeTable from '../components/MultiTimeTable'
+import TableCafe from './TableCafe'
+import TableGallery from './TableGallery'
 import facilityData from '../data/facilityData.json'
 
 export default (props) => {
     const myRoom = facilityData.find (e => e.room === props.roomNumber);
     return (
         <div className="Room">
-            <MultiTimeTable room = {myRoom}/>
             <RoomOverview room = {myRoom} />
             <Amenities room = {myRoom} />
             <RoomPics room = {myRoom} />
+            {((myRoom.room === 'Room 201') || (myRoom.room === 'Room 203')) && <MultiTimeTable/>}
+            {((myRoom.room === 'Room 304') || (myRoom.room === 'Room 401')) && <TableCafe/>}
+            {((myRoom.room === 'Room 304') || (myRoom.room === 'Room 401')) && <TableGallery/>}
             <RoomAgenda room = {myRoom} />
         </div>
     )

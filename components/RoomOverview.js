@@ -6,7 +6,7 @@ export default (props) =>
                     <p>{props.room.overview}</p>
                 </div>
                 <div className="RoomOverview-table">
-                    <p>blabababab</p>
+                    
                 </div>
             </div>
         )

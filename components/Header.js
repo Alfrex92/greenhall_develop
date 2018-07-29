@@ -1,14 +1,11 @@
 import Link from 'next/link'
 import Menu from './Menu'
-
-const linkStyle = {
-    marginRight: 15
-  }
+import Dropdown from './Dropdown'
   
   const Header = () => (
       <div className="Navbar">
           <Link href="/">
-            <a className ="Logo"style={linkStyle}>
+            <a className ="Logo">
               <img src="/../static/img/logo.png" alt="自由が丘グリーンホール ロゴ" className="Logo-img"/>
             </a>
           </Link>
@@ -16,15 +13,13 @@ const linkStyle = {
             <Menu/>
           </div>
           <div className="Navbar-right">
-            <Link href="/facility">
-            <a style={linkStyle}>施設概要</a>
-            </Link>
+            <Dropdown/>
             <Link href="/faq">
-            <a style={linkStyle}>よくある質問</a>
+            <a>よくある質問</a>
             </Link>
             <a href="#access">アクセス</a>
             <Link href="/reserve">
-            <a  style={linkStyle}>予約</a>
+            <a>予約</a>
             </Link>
           </div>
          

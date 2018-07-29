@@ -1,8 +1,8 @@
-import Home from '../components/Home.js'
+import Home from '../../components/Home.js'
 import Head from 'next/head'
-import Room  from '../components/Room'
-import Access from '../components/Access'
-import Footer from '../components/Footer'
+import Room  from '../../components/Room'
+import Access from '../../components/Access'
+import Footer from '../../components/Footer'
 
 export default () => (
     <Home>
@@ -11,7 +11,7 @@ export default () => (
         <meta name="description" content="testing the description of this " />
         </Head>
         <p>Room 401</p>
-        <Room roomNumber = 'Room 401' />
+        <Room roomNumber = 'Room 304' />
         <Access/>
         <Footer/>
     </Home>

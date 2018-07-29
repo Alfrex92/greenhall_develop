@@ -12,9 +12,9 @@ const Facility = () => (
             return (
                 // I do not need to use fragment i just use because i want it to test it 
                 <React.Fragment key={facility.image}>
-                    <Link href="/facility">
+                    <Link href={`facility/${facility.link}`}>
                         <li className="Facility-item">
-                            <a href="/facility">
+                            <a href={`facility/${facility.link}`}>
                                 <div className="Facility-illustration">
                                     <img src={`../../static/img/${facility.image}.jpg`}   className="Facility-img" alt={`自由が丘グリーンホール ${facility.room} `}/>
                                     <p className="Facility-type">{facility.type}</p>

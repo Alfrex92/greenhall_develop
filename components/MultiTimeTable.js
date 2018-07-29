@@ -1,11 +1,8 @@
 
-import TableCafe from './TableCafe'
-import TableGallery from './TableGallery'
 
 
-
-export default (props) => (
-    <div className="MultiTimeTable container">
+export default () => (
+    <div className="MultiTimeTable ComponentSeparation container">
         <h2 className="SectionHeader">ご利用料金</h2>
         <div className="MultiTimeTable-container">
             <table className="MultiTimeTable-content">
@@ -37,8 +34,11 @@ export default (props) => (
                 </tbody>
             </table>
         </div>
-        {((props.room.room === 'Room 304') ||  (props.room.room === 'Room 401')) && <TableCafe/>}
-        {((props.room.room === 'Room 304') ||  (props.room.room === 'Room 401')) && <TableGallery/>}
+        <div className="MultiTimeTable-caption">
+            <p>※8時間以上ご利用の場合の延長料金は 3500円/1時間</p>
+            <p>※１日～数日、各日２時間以上からご利用になれます。連日ご使用の場合割引いたします。</p>
+        </div>
+       
 
     </div>
 )

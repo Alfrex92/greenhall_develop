@@ -15,6 +15,7 @@
         flex-direction: column;
         border-collapse: collapse;
         text-align: center;
+
     }
     tr {
         border-bottom: 1px solid black;
@@ -33,6 +34,15 @@
         background-color: rgba(0,178,200,0.7);
         color: white;
         border-bottom: 1px solid rgba(0,178,200,0.3);
+    }
+    &-caption {
+        margin-top: $space-xs;
+        text-align: center;
+        font-size: $space-m;
+    }
+    &--small {
+        min-width: 0;
+
     }
 
 }

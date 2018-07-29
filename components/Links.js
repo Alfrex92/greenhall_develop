@@ -8,9 +8,6 @@ export default () => (
             <a>Home</a>
         </Link>
         <Dropdown/>
-        <Link href="/facility">
-            <a>施設概要</a>
-        </Link>
         <Link href="/faq">
             <a>よくある質問</a>
         </Link>

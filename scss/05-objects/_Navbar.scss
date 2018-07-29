@@ -2,18 +2,28 @@
 	display: flex;
 	justify-content: space-between;
 	padding: $space-m;
+	align-items: center;
+	font-size: 1rem;
 	max-width: rem(1200px);
 	margin:0 auto;
 	&-right {
 		display: none;
 		@include large-screen { 
-			display: block;
+			display: flex;
+			.Dropdown {
+				position: relative;
+				&-panel {
+					position: absolute;
+				}
+			}
 		}
 	}
 	&-menu {
         @include large-screen { 
             display: none;
         }
-    }
+	}
+	
+
 }
 

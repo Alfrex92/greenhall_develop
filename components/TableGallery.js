@@ -1,7 +1,7 @@
 
 export default (props) => (
 
-    <div className="Table">
+    <div className="Table container">
         <table className="ta2 mb1em">
             <tbody>
                 <tr>

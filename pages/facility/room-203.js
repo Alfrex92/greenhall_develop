@@ -1,14 +1,18 @@
 import Home from '../../components/Home'
-import QA from '../../components/QA'
-import GlobalStyles from '../../components/GlobalStyles'
+import Head from 'next/head'
+import Room  from '../../components/Room'
+import Access from '../../components/Access'
 import Footer from '../../components/Footer'
-
 
 export default () => (
     <Home>
-        <h1>FAQ</h1>
-        <GlobalStyles/>
-        <QA/> 
+        <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" class="next-head"/>
+        <meta name="description" content="testing the description of this " />
+        </Head>
+        <p>This is Room4 facility page</p>
+        <Room roomNumber = 'Room 203' />
+        <Access/>
         <Footer/>
     </Home>
 )
