@@ -10,8 +10,8 @@ export default () => (
         <meta name="viewport" content="width=device-width, initial-scale=1" class="next-head"/>
         <meta name="description" content="testing the description of this " />
         </Head>
-        <p>This is Room4 facility page</p>
-        <Room roomNumber = 'Room 304' />
+        <p>Room 401</p>
+        <Room roomNumber = 'Room 401' />
         <Access/>
         <Footer/>
     </Home>
