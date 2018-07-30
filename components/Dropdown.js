@@ -1,10 +1,16 @@
 import Link from 'next/link'
+import 'what-input'
 
 class Dropdown extends React.Component {
     
     state = {
         openPanel: false,
       };
+
+    onMouseEnter = () => {
+        if(!document.querySelector("[data-whatinput='touch']"))
+            this.onClick()
+    }
     onClick = () => {
         this.setState({ 
             openPanel: !this.state.openPanel,
@@ -20,14 +26,15 @@ class Dropdown extends React.Component {
         }
         );   
     };
-    // handleHoverOff = (e) => {
-    //     this.setState({ 
-    //         openPanel: !!this.state.openPanel,
-    //     })
-    //     const panel = document.querySelector('.Dropdown-panel');
-    //     panel.style.maxHeight = null;
-    // }
-    // onMouseLeave={this.handleHoverOff}
+    handleHoverOff = (e) => {
+        this.setState({ 
+            openPanel: !!this.state.openPanel,
+        })
+        const currentPanel = e.currentTarget
+        // select that element only
+        const panel = currentPanel.querySelector('.Dropdown-panel');
+        panel.style.maxHeight = null;
+    }
     getHeight = () => {
         console.log('hello')
         const panel = document.querySelector('.Dropdown-panel');
@@ -40,10 +47,10 @@ class Dropdown extends React.Component {
     }
     render() {
         return (
-            <div className="Dropdown">
-                <button className="Dropdown-button"  onMouseEnter={this.onClick} onClick={this.onClick}>
+            <div className="Dropdown" onMouseLeave={this.handleHoverOff}>
+                <div className="Dropdown-button"  onMouseEnter={this.onMouseEnter} onClick={this.onClick}>
                     施設概要
-                </button>
+                </div>
                 <ul className="Dropdown-panel">
                     <Link href="/facility/room-201">
                         <a>Room-201</a>

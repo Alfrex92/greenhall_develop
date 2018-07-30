@@ -17,7 +17,8 @@
     "next": "^6.1.1",
     "node-sass": "^4.9.2",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "what-input": "^5.1.1"
   },
   "devDependencies": {
     "babel-plugin-transform-react-pug": "^6.0.0"

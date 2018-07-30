@@ -1,15 +1,21 @@
 export default () => (
-    <table class="ta2 mb1em">
-  <tbody><tr>
-    <td class="tdclr" colspan="2">レンタル料金 </td>
-  </tr>
-  <tr>
-    <th>４時間　</th>
-    <td>32,400円</td>
-  </tr>
-  <tr>
-    <th>時間外追加料金</th>
-    <td>1時間につき4,320 円</td>
-  </tr>
-</tbody></table>
+    <div className="MultiTimeTable container ComponentSeparation">
+    <div className="MultiTimeTable-container ">
+        <table className="MultiTimeTable-content MultiTimeTable--small">
+            <tbody>
+                <tr>
+                    <th className="MultiTimeTable-title">４時間　</th>
+                    <td >32,400円</td>
+                </tr>
+                <tr>
+                    <th className="MultiTimeTable-title">時間外追加料金</th>
+                    <td>1時間につき4,320 円</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p className="MultiTimeTable-caption">パーティースペース、飲み放題付ケータリングサービスご希望の場合には別途ご相談ください。</p>
+    </div>
+    
 )

@@ -1,7 +1,7 @@
 
 export default (props) => (
 
-    <div className="MultiTimeTable container">
+    <div className="MultiTimeTable container ComponentSeparation">
         <div className="MultiTimeTable-container">
         <table className="MultiTimeTable-content MultiTimeTable--small">
             <tbody>

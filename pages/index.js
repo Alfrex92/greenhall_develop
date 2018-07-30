@@ -1,5 +1,4 @@
 // pages/index.js
-
 import Home from '../components/Home'
 import CTA from '../components/CTA'
 import GlobalStyles from '../components/GlobalStyles'
@@ -12,6 +11,7 @@ import Services from '../components/Services'
 import Facility from '../components/Facility/Facility.js'
 
 import "../scss/styles.scss"
+
 
 export default () => (
     <Home>

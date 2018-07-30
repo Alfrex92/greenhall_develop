@@ -3,7 +3,6 @@
 
 export default () => (
     <div className="MultiTimeTable ComponentSeparation container">
-        <h2 className="SectionHeader">ご利用料金</h2>
         <div className="MultiTimeTable-container">
             <table className="MultiTimeTable-content">
                 <tbody>

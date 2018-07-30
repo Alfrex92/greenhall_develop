@@ -8,9 +8,15 @@
     background-color: white;
     padding: $space-m;
     &-close {
-        display: flex;
-        justify-content: flex-end;
+        position: absolute;
+        right: 1rem;
         font-size: rem(30px);
+    }
+}
+
+.Menu {
+    &-icon {
+        font-size: $space-l;
     }
 }
 

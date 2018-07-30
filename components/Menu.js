@@ -12,13 +12,12 @@ class Menu extends React.Component {
          }
           
         );   
-      };
-
+      }
     render(props) {
         return (
             <React.Fragment>
                 <div className="Menu" onClick={this.onClick}>
-                  <i className="i-menu"></i>
+                  <i className="i-menu Menu-icon"></i>
                 </div>
                 {this.state.openModal && <MobileMenu openModal={this.state.openModal} onClick={this.onClick}/> }
             </React.Fragment>
