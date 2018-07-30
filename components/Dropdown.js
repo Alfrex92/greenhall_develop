@@ -48,9 +48,9 @@ class Dropdown extends React.Component {
     render() {
         return (
             <div className="Dropdown" onMouseLeave={this.handleHoverOff}>
-                <div className="Dropdown-button"  onMouseEnter={this.onMouseEnter} onClick={this.onClick}>
+                <a className="Dropdown-button"  onMouseEnter={this.onMouseEnter} onClick={this.onClick}>
                     施設概要
-                </div>
+                </a>
                 <ul className="Dropdown-panel">
                     <Link href="/facility/room-201">
                         <a>Room-201</a>
