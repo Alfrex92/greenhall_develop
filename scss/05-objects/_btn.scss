@@ -17,5 +17,10 @@
         color:white;
         background-color: colors-map($colors,green,base);
 	}
+    &--white {
+        color: colors-map($colors,green,secondary);
+        background-color: white;
+      }
+
 
 }

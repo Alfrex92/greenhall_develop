@@ -17,7 +17,7 @@ const QA = (props) => (
         @media screen and (min-width: 46.5rem) {
             .QA {
                 width: 42.25rem;
-                margin: 0 auto;
+                margin: 0 auto 2rem;
                 padding: 0 1rem;
                 }
             }
@@ -36,10 +36,10 @@ const QA = (props) => (
             border: 0;
             border-top: 1px solid #eceeef;
         }
-     
-     
+
+
     `}</style>
-    
+
     </div>
 )
 

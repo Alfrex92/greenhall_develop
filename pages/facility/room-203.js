@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Room  from '../../components/Room'
 import Access from '../../components/Access'
 import Footer from '../../components/Footer'
+import CTA from '../../components/CTA'
+
 
 export default () => (
     <Home>
@@ -11,8 +13,8 @@ export default () => (
         <meta name="description" content="testing the description of this " />
         </Head>
         <Room roomNumber = 'Room 203' />
+        <CTA/>
         <Access/>
         <Footer/>
     </Home>
 )
-

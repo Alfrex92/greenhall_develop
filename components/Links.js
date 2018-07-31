@@ -2,18 +2,20 @@ import Link from 'next/link'
 import Dropdown from './Dropdown'
 
 
-export default () => (
+export default (props) => (
     <div className="Links">
         <Link href="/">
-            <a>Home</a>
+            <a onClick={props.onClick}>Home</a>
         </Link>
+
+
         <div className="Links-btn">
             <Dropdown/>
         </div>
         <Link href="/faq">
-            <a>よくある質問</a>
+            <a onClick={props.onClick}>よくある質問</a>
         </Link>
-        <a href="#access">アクセス</a>
+        <a href="/access" onClick={props.onClick}>アクセス</a>
     </div>
-  
+
 )

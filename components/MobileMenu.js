@@ -22,7 +22,7 @@ class MobileMenu extends React.Component {
             <div className="MobileMenu-close">
                 <i className="i-close" onClick={this.props.onClick}></i>
             </div>
-            <Links/>
+            <Links onClick={this.props.onClick}/>
         </div>
     )
   }

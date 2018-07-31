@@ -3,18 +3,14 @@ import Btn from '../components/Btn'
 
 const CTA = (props) => (
     <section className="CTA ComponentSeparation">
-        <div className="CTA-bg">
-            <div className="CTA-bgLeft"></div>
-            <div className="CTA-bgRight"></div>
-        </div>
         <div className="container CTA-body">
             <div className="CTA-info">
-                <p className="CTA-text">自由が丘駅の近くあるグリーンホールは、植物に彩られた落ち着いた環境の中に有るレンタルスペースです。</p>
-                <Btn url="book" text="今すぐに予約して"/>
+                <p　className="CTA-question t2">素敵なコワーキング・レンタル <span className="CTA-br">スペース借りてみませんか？</span></p>
+                <p className="CTA-text">Green Hallは自由が丘にある植物に彩られた落ち着いた環境です。普段と違った空間を提供します。</p>
+                <Btn url="https://www.smartkaigisitsu.net/properties/index_admin" text="今すぐ予約する" btnModifier="--white"/>
             </div>
-        </div>   
+        </div>
     </section>
 )
-
 
 export default CTA

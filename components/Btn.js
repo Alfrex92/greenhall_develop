@@ -1,11 +1,10 @@
 const Btn = (props) => (
         <div className="Btn">
-            <a href={`/${props.url}`} className={`Btn-link ${props.btnModifier}`}>
+            <a  target="_blank" href={`${props.url}`} className={`Btn-link Btn${props.btnModifier}`}>
             {props.text}
             </a>
         </div>
-       
+
 )
 
 export default Btn
-
