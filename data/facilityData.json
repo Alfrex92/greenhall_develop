@@ -8,7 +8,7 @@
         "type": "コワーキングスペース",
         "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=m1aick8rp08tfn9la6u15ofoq4%40group.calendar.google.com&amp;ctz=Asia/Tokyo",
         "price" :"1,000円/1時間　500円/30分",
-        "size" : "51㎡（15坪",
+        "size" : "51㎡（15坪)",
         "height" : "2.2m",
         "picture" : [
             "green-hall_room-201_picture-1", "green-hall_room-201_picture-2","green-hall_room-201_picture-3","green-hall_room-201_picture-4"  
@@ -16,19 +16,15 @@
         "amenities": [
             {
                 "name" : "Equipment",
-                "value": ["Printer", "Photocopier", "Scanner"]
-            },
-            {
-                "name" : "Food",
-                "value":  ["Kitchen", "Free Coffee / Tea"]
+                "value": ["プリンター", "コピー機","スキャナー","ホワイトボード"]
             },
             {
                 "name" : "Seats",
-                "value": ["Desks", "Ergonomic chairs"]
+                "value": ["イス", "テーブル"]
             },
             {
                 "name" : "Others",
-                "value": ["High Speed Internet", "Personal Lockers"]
+                "value": ["Wi-Fi"]
             }
         ]
     },
@@ -49,19 +45,15 @@
         "amenities": [
             {
                 "name" : "Equipment",
-                "value": ["Printer", "Photocopier", "Scanner"]
-            },
-            {
-                "name" : "Food",
-                "value":  ["Kitchen", "Free Coffee / Tea"]
+                "value": ["プリンター", "コピー機","スキャナー","ホワイトボード"]
             },
             {
                 "name" : "Seats",
-                "value": ["Desks", "Ergonomic chairs"]
+                "value": ["イス", "テーブル"]
             },
             {
                 "name" : "Others",
-                "value": ["High Speed Internet", "Personal Lockers"]
+                "value": ["Wi-Fi"]
             }
         ]
         
@@ -84,19 +76,15 @@
         "amenities": [
             {
                 "name" : "Equipment",
-                "value": ["冷蔵庫", "電子レンジ", "Scanner"]
-            },
-            {
-                "name" : "Food",
-                "value":  ["Kitchen", "Free Coffee / Tea"]
+                "value": ["プリンター", "コピー機","スキャナー","大型TVモニター", "大型冷蔵庫", "自動製氷機", "電子レンジ"]
             },
             {
                 "name" : "Seats",
-                "value": ["Desks", "Ergonomic chairs"]
+                "value": ["イス", "テーブル", "ソファー"]
             },
             {
                 "name" : "Others",
-                "value": ["High Speed Internet", "大型TVモニター"]
+                "value": ["Wi-Fi", "ミニキッチン"]
             }
         ]
     },
@@ -117,19 +105,15 @@
         "amenities": [
             {
                 "name" : "Equipment",
-                "value": ["Printer", "Photocopier", "Scanner"]
-            },
-            {
-                "name" : "Food",
-                "value":  ["Kitchen", "Free Coffee / Tea"]
+                "value": ["プリンター", "コピー機","スキャナー"]
             },
             {
                 "name" : "Seats",
-                "value": ["Desks", "Ergonomic chairs"]
+                "value": ["イス", "テーブル"]
             },
             {
                 "name" : "Others",
-                "value": ["High Speed Internet", "Personal Lockers"]
+                "value": ["Wi-Fi", "ミニキッチン"]
             }
         ]
     }

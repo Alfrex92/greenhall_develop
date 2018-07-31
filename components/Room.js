@@ -1,4 +1,4 @@
-import RoomOverview  from '../components/RoomOverview'
+import RoomCover  from '../components/RoomCover'
 import RoomPics  from '../components/RoomPics'
 import RoomAgenda  from '../components/RoomAgenda'
 import Amenities  from '../components/Amenities'
@@ -12,7 +12,7 @@ export default (props) => {
     const myRoom = facilityData.find (e => e.room === props.roomNumber);
     return (
         <div className="Room">
-            <RoomOverview room = {myRoom} />
+            <RoomCover room = {myRoom} />
             <Amenities room = {myRoom} />
             <RoomPics room = {myRoom} />
             <h2 className="SectionHeader">ご利用料金</h2>
