@@ -4,6 +4,7 @@ import Room  from '../../components/Room'
 import Access from '../../components/Access'
 import Footer from '../../components/Footer'
 import CTA from '../../components/CTA'
+import GeneralInfo from '../../components/GeneralInfo'
 
 
 export default () => (
@@ -15,6 +16,7 @@ export default () => (
         <Room roomNumber = 'Room 201' />
         <CTA/>
         <Access/>
+        <GeneralInfo/>
         <Footer/>
     </Home>
 )

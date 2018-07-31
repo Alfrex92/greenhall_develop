@@ -14,10 +14,14 @@ const QA = (props) => (
         })
     }
     <style jsx>{`
+
+        .QA {
+            margin: 0 auto 2rem;
+        }
         @media screen and (min-width: 46.5rem) {
             .QA {
                 width: 42.25rem;
-                margin: 0 auto 2rem;
+
                 padding: 0 1rem;
                 }
             }

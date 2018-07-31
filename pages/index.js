@@ -8,6 +8,7 @@ import Features from '../components/Features'
 import Access from '../components/Access'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
+import GeneralInfo from '../components/GeneralInfo'
 import Facility from '../components/Facility/Facility.js'
 
 import "../scss/styles.scss"
@@ -27,15 +28,13 @@ export default () => (
                 <h3 className="SectionHeader">施設概要</h3>
                 <Facility/>
             </section>
-            <section className="CTAsection">
-                 <CTA/>
-            </section>
+            <CTA/>
             <Access/>
-           
+            <GeneralInfo/>
             <Footer/>
 
         </div>
-     
+
     </Home>
-  
+
 )

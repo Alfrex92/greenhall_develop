@@ -1,39 +1,39 @@
 .AccessMap {
-    &-content {
-        display: flex;
-        flex-direction: column;
+	&-content {
+		display: flex;
+		flex-direction: column;
+	}
 
+	&-img {
+		width: 100%;
+		padding-left: $space-m;
+		padding-right: $space-m;
+		@include large-screen {
+			max-width: 600px;
+		}
+	}
 
-      }
+	&-illustration {
+		order: 2;
+		@include large-screen {
+			flex-basis: 50%;
+		}
+	}
 
-    &-img {
-        width: 100%;
-        padding-left: $space-m;
-        padding-right: $space-m;
-        @include large-screen {
-            max-width: 600px;
-        }
+	&-description {
+		margin-top: 0;
+		padding-bottom: 0;
 
-      }
-      &-illustration {
-          order: 2;
-          @include large-screen {
-              flex-basis: 50%;
-          }
+		.Cover-description {
+			border: none;
+		}
 
-        }
+		h1 {
+			text-align: center;
+		}
+	}
 
-      &-description {
-          margin-top: 0;
-          padding-bottom: 0;
-          border: none;
-          h1 {
-              text-align: center;
-          }
-        }
-    &-subheader {
-        color: colors-map($colors,green,base);
-      }
-
-
+	&-subheader {
+		color: colors-map($colors,green,base);
+	}
 }

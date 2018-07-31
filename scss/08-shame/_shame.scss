@@ -1,8 +1,36 @@
-.ParallaxFooter--spacer2 {
-    display: none;
+.GeneralInfo {
+    text-align: center;
     @include large-screen {
-        display: block;
-        height: 360px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $space-m;
+    @include large-screen {
+        flex-basis: 33.3%;
+    }
 
     }
+    i {
+        font-size: em(25px);
+    }
+    .i-facebook {
+        color: colors-map($colors,green,base);
+
+    }
+    .i-clock {
+        color: colors-map($colors,green,secondary);
+
+    }
+    .i-mail {
+        color: colors-map($colors,blue,base);
+
+
+    }
+
+
+
 }
