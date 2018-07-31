@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Menu from './Menu'
 import Dropdown from './Dropdown'
-  
+
   const Header = () => (
       <div className="Navbar">
           <Link href="/">
@@ -13,17 +13,19 @@ import Dropdown from './Dropdown'
             <Menu/>
           </div>
           <div className="Navbar-right">
-            <Dropdown/>
+
             <Link href="/faq">
-            <a>よくある質問</a>
+            <a className ="Navbar-link">よくある質問</a>
             </Link>
-            <a href="#access">アクセス</a>
-            <Link href="/reserve">
-            <a>予約</a>
+            <Link href="/access" >
+                <a className ="Navbar-link">アクセス</a>
             </Link>
+            <div className="Btn-link">
+                <Dropdown/>
+            </div>
           </div>
-         
+
       </div>
   )
-  
+
   export default Header
