@@ -6,7 +6,7 @@ export default () => (
         </div>
         <div className="GeneralInfo-item">
             <i className="i-mail"></i>
-            <a class="GeneralInfo-text" href="mailto:info@green-hall.com">info@green-hall.com</a>
+            <a className="GeneralInfo-text" href="mailto:info@green-hall.com">info@green-hall.com</a>
         </div>
         <div className="GeneralInfo-item">
             <i className="i-clock"></i>
