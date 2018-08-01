@@ -11,15 +11,15 @@ import GeneralInfo from '../../components/GeneralInfo'
 export default () => (
     <Home>
         <Head>
-            <title>Room 201 | 自由が丘グリーンホール   </title>
+            <title>Room 401 | 自由が丘グリーンホール   </title>
             <link rel="canonical" href=""/>
-            <meta name="description" content="自由が丘グリーンホールのRoom 201です。利用:授業、セミナー等、収容人数:30名様、 階数: 2階"/>
-            <meta property="og:title" content="Room 201 | 自由が丘グリーンホール "/>
-            <meta property="og:description" content="自由が丘グリーンホールのRoom 201です。利用:授業、セミナー等、収容人数:30名様、 階数: 2階"/>
+            <meta name="description" content="テラスからは富士山が見えます。展示会、撮影、貸切パーティにも最適です。ミーティング、ワークショップ、教室にも、ご利用いただけます。収容人数:50名様 階数: 3階"/>
+            <meta property="og:title" content="Room 401 | 自由が丘グリーンホール "/>
+            <meta property="og:description" content="テラスからは富士山が見えます。展示会、撮影、貸切パーティにも最適です。ミーティング、ワークショップ、教室にも、ご利用いただけます。収容人数:50名様 階数: 3階"/>
             <meta property="og:url" content=""/>
             <meta name="twitter:url" content=""/>
-            <meta name="twitter:description" content="自由が丘グリーンホールのRoom 201です。利用:授業、セミナー等、収容人数:30名様、 階数: 2階"/>
-            <meta name="twitter:title" content="Room 201 | 自由が丘グリーンホール "/>
+            <meta name="twitter:description" content="テラスからは富士山が見えます。展示会、撮影、貸切パーティにも最適です。ミーティング、ワークショップ、教室にも、ご利用いただけます。収容人数:50名様 階数: 3階"/>
+            <meta name="twitter:title" content="Room 401 | 自由が丘グリーンホール "/>
         </Head>
         <Room roomNumber = 'Room 401' />
         <CTA/>

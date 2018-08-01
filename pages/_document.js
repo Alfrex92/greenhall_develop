@@ -10,11 +10,11 @@ export default class MyDocument extends Document {
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 				<link rel="stylesheet" href="/_next/static/style.css"/>
 				<link href="https://file.myfontastic.com/i6DDCMAgr8vZtvBZfZob6f/icons.css" rel="stylesheet"/>
-				<link rel="apple-touch-icon" sizes="180x180" href="./img/fav/apple-touch-icon.png"/>
-				<link rel="icon" type="image/png" sizes="32x32" href="./img/fav/favicon-32x32.png"/>
-				<link rel="icon" type="image/png" sizes="16x16" href="./img/fav/favicon-16x16.png"/>
-				<link rel="manifest" href="./img/fav/site.webmanifest"/>
-				<link rel="mask-icon" href="./img/fav/safari-pinned-tab.svg" color="#5bbad5"/>
+				<link rel="apple-touch-icon" sizes="180x180" href="./static/fav/apple-touch-icon.png"/>
+				<link rel="icon" type="image/png" sizes="32x32" href="./static/fav/favicon-32x32.png"/>
+				<link rel="icon" type="image/png" sizes="16x16" href="./static/fav/favicon-16x16.png"/>
+				<link rel="manifest" href="./static/fav/site.webmanifest"/>
+				<link rel="mask-icon" href="./static/fav/safari-pinned-tab.svg" color="#5bbad5"/>
 				<meta name="msapplication-TileColor" content="#00D664"/>
                 <meta property="og:site_name" content="Green Hall"/>
         		<meta property="fb:app_id" content="622585284460792"/>
