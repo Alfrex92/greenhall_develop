@@ -5,7 +5,7 @@ export default () => (
         <div className="Cover-container">
             <div className="Cover-description">
             <p className="Cover-subheader">緑陰スペース</p>
-            <h1 className="t2 Cover-header">Coworking & Rental Space</h1>
+            <h1 className="t2 Cover-header">Rental Space</h1>
             <p className="Cover-info">
                 自由が丘駅前にはオシャレな町並みが広がっています。
                 自由が丘グリーンホールは、その一角、駅から４分ほど歩いた先にあります。

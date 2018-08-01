@@ -2,7 +2,6 @@ import servicesData from "../data/servicesData.json"
 
 const Services = (props) => (
     <section className="Service container ComponentSeparation">
-        <h2 className="SectionHeader">コワーキング・レンタルスペース</h2>
         <ul className="Services-list">
             {
                 servicesData.map((services,index) => {
@@ -11,7 +10,7 @@ const Services = (props) => (
                             <div className={`Services-${services.name} Services-img`}></div>
                             <p className="Services-name">{services.service}</p>
                         </li>
-            )           
+            )
                 })
             }
         </ul>
@@ -21,3 +20,4 @@ const Services = (props) => (
 )
 
 export default Services
+// <h2 className="SectionHeader">コワーキング・レンタルスペース</h2>
