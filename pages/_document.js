@@ -1,18 +1,31 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, {Head, Main, NextScript} from "next/document";
 
 export default class MyDocument extends Document {
-  render() {
-    return (
-      <html>
-        <Head>
-          <link rel="stylesheet" href="/_next/static/style.css" />
-          <link href="https://file.myfontastic.com/i6DDCMAgr8vZtvBZfZob6f/icons.css" rel="stylesheet"/>
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </html>
-    )
-  }
+	render() {
+		return (<html lang="ja">
+			<Head>
+				<meta charset="UTF-8"/>
+				<meta name="robots" content="index, follow"/>
+				<meta name="theme-color" content="#FF3366"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+				<link rel="stylesheet" href="/_next/static/style.css"/>
+				<link href="https://file.myfontastic.com/i6DDCMAgr8vZtvBZfZob6f/icons.css" rel="stylesheet"/>
+				<link rel="apple-touch-icon" sizes="180x180" href="./img/fav/apple-touch-icon.png"/>
+				<link rel="icon" type="image/png" sizes="32x32" href="./img/fav/favicon-32x32.png"/>
+				<link rel="icon" type="image/png" sizes="16x16" href="./img/fav/favicon-16x16.png"/>
+				<link rel="manifest" href="./img/fav/site.webmanifest"/>
+				<link rel="mask-icon" href="./img/fav/safari-pinned-tab.svg" color="#5bbad5"/>
+				<meta name="msapplication-TileColor" content="#da532c"/>
+			</Head>
+			<body>
+				<Main/>
+				<NextScript/>
+			</body>{" "}
+		</html>);
+	}
 }
+
+// <script type="application/ld+json">
+//   add here the ld json https://json-ld.org/
+//   https://jsonld.com/
+//           </script>

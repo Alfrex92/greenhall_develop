@@ -2,7 +2,7 @@ import Link from 'next/link'
 import 'what-input'
 
 class Dropdown extends React.Component {
-    
+
     state = {
         openPanel: false,
       };
@@ -12,7 +12,7 @@ class Dropdown extends React.Component {
             this.onClick()
     }
     onClick = () => {
-        this.setState({ 
+        this.setState({
             openPanel: !this.state.openPanel,
         },
         () => {
@@ -24,10 +24,10 @@ class Dropdown extends React.Component {
                 panel.style.maxHeight = `${eleHeight}px`;
               }
         }
-        );   
+        );
     };
     handleHoverOff = (e) => {
-        this.setState({ 
+        this.setState({
             openPanel: !!this.state.openPanel,
         })
         const currentPanel = e.currentTarget

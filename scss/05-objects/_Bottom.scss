@@ -2,10 +2,22 @@
     background: #373737;
     font-size: 1rem;
     color:white;
+
     &-container {
         display: flex;
-        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 75rem;
+        flex-direction: column;
         padding: $space-m;
+        @include large-screen {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .Btn {
+                width: auto;
+            }
+        }
+
     }
     &-link {
         color: white;
