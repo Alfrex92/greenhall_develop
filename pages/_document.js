@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
 			<Head>
 				<meta charset="UTF-8"/>
 				<meta name="robots" content="index, follow"/>
-				<meta name="theme-color" content="#FF3366"/>
+				<meta name="theme-color" content="#00D664"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 				<link rel="stylesheet" href="/_next/static/style.css"/>
 				<link href="https://file.myfontastic.com/i6DDCMAgr8vZtvBZfZob6f/icons.css" rel="stylesheet"/>
@@ -15,7 +15,14 @@ export default class MyDocument extends Document {
 				<link rel="icon" type="image/png" sizes="16x16" href="./img/fav/favicon-16x16.png"/>
 				<link rel="manifest" href="./img/fav/site.webmanifest"/>
 				<link rel="mask-icon" href="./img/fav/safari-pinned-tab.svg" color="#5bbad5"/>
-				<meta name="msapplication-TileColor" content="#da532c"/>
+				<meta name="msapplication-TileColor" content="#00D664"/>
+                <meta property="og:site_name" content="Green Hall"/>
+        		<meta property="fb:app_id" content="622585284460792"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:locale" content="ja_JP"/>
+                <meta property="og:image" content=""/>
+                <meta name="twitter:image" content=""/>
+                <meta name="twitter:card" content="summary_large_image"/>
 			</Head>
 			<body>
 				<Main/>

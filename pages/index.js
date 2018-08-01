@@ -16,24 +16,16 @@ import "../scss/styles.scss"
 export default() => (<Home>
 	<GlobalStyles/>
 	<Head>
-		<title>FreeWill-FreeSpace, a new incubator model.</title>
-		<link rel="canonical" href="http://freewill-freespace.com/"/>
-		<meta name="description" content="インキュベーターシステムのような役割を担っており、今までに類をみない新しいプラットフォームです。"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-		<meta property="og:url" content="http://freewill-freespace.com/"/>
-		<meta property="og:title" content="FreeWill-FreeSpace, a new incubator model"/>
-		<meta property="og:site_name" content="FreeWill-FreeSpace"/>
-		<meta property="fb:app_id" content="435950733119756"/>
-		<meta property="og:description" content="インキュベーターシステムのような役割を担っており、今までに類をみない新しいプラットフォームです。ここでは、あなたの持つビジネスアイディアを実現させることを手伝うことができます。"/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:url" content="http://freewill-freespace.com/"/>
-		<meta property="og:image" content="https://www.gdicommunications.com/images/layout/GDILogo.png"/>
-		<meta property="og:locale" content="ja_JP"/>
-		<meta name="twitter:url" content="http://freewill-freespace.com/"/>
-		<meta name="twitter:card" content="summary_large_image"/>
-		<meta name="twitter:image" content="https://www.gdicommunications.com/images/layout/GDILogo.png"/>
-		<meta name="twitter:description" content="インキュベーターシステムのような役割を担っており、今までに類をみない新しいプラットフォームです。ここでは、あなたの持つビジネスアイディアを実現させることを手伝うことができます。"/>
-		<meta name="twitter:title" content="FreeWill-FreeSpace, a new incubator model"/>
+		<title>自由が丘グリーンホール、緑陰レンタルスペース</title>
+		<link rel="canonical" href=""/>
+		<meta name="description" content="自由が丘の緑陰レンタルスペース･貸し会議室、展示会・説明会・会議・研修・セミナー・など用途に合わせてご利用いただけます"/>
+		<meta property="og:title" content="自由が丘グリーンホール、緑陰レンタルスペース"/>
+		<meta property="og:description" content="自由が丘の緑陰レンタルスペース･貸し会議室、展示会・説明会・会議・研修・セミナー・など用途に合わせてご利用いただけます"/>
+		<meta property="og:url" content=""/>
+		<meta name="twitter:url" content=""/>
+		<meta name="twitter:image" content=""/>
+		<meta name="twitter:description" content="自由が丘の緑陰レンタルスペース･貸し会議室、展示会・説明会・会議・研修・セミナー・など用途に合わせてご利用いただけます"/>
+		<meta name="twitter:title" content="自由が丘グリーンホール、緑陰レンタルスペース"/>
 	</Head>
 	<div className="Index">
 		<HeroImage/>

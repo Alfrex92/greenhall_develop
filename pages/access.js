@@ -11,7 +11,15 @@ export default () => (
     <Home>
         <GlobalStyles/>
         <Head>
-            <meta name="description" content="testing the description of this " />
+            <title>アクセス | 自由が丘グリーンホール</title>
+            <link rel="canonical" href=""/>
+            <meta name="description" content="自由が丘グリーンホールのアクセスです。周辺地図、交通アクセス、などのご案内。"/>
+            <meta property="og:title" content="自由が丘グリーンホール  | アクセス）"/>
+            <meta property="og:description" content="自由が丘グリーンホールのアクセスです。周辺地図、交通アクセス、などのご案内。"/>
+            <meta property="og:url" content=""/>
+            <meta name="twitter:url" content=""/>
+            <meta name="twitter:description" content="自由が丘グリーンホールのアクセスです。周辺地図、交通アクセス、などのご案内"/>
+            <meta name="twitter:title" content="自由が丘グリーンホール  | アクセス"/>
         </Head>
         <div className="AccessMap">
             <div className="Cover ComponentSeparation AccessMap-content">
