@@ -20,8 +20,8 @@ export default class MyDocument extends Document {
         		<meta property="fb:app_id" content="622585284460792"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:locale" content="ja_JP"/>
-                <meta property="og:image" content=""/>
-                <meta name="twitter:image" content=""/>
+                <meta property="og:image" content="https://green-hall-test.herokuapp.com/static/img/green-hall_facebook-cover.jpg"/>
+                <meta name="twitter:image" content="https://green-hall-test.herokuapp.com/static/img/green-hall_facebook-cover.jpg"/>
                 <meta name="twitter:card" content="summary_large_image"/>
 			</Head>
 			<body>
