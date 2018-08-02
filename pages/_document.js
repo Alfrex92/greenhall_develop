@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
 				<link rel="mask-icon" href="./static/fav/safari-pinned-tab.svg" color="#5bbad5"/>
 				<meta name="msapplication-TileColor" content="#00D664"/>
                 <meta property="og:site_name" content="Green Hall"/>
-        		<meta property="fb:app_id" content="622585284460792"/>
+                <meta property="fb:page_id" content="622585284460792" />
                 <meta property="og:type" content="website"/>
                 <meta property="og:locale" content="ja_JP"/>
                 <meta property="og:image" content="https://green-hall-test.herokuapp.com/static/img/green-hall_facebook-cover.jpg"/>
