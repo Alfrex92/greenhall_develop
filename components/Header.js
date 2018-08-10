@@ -3,6 +3,7 @@ import Menu from './Menu'
 import Dropdown from './Dropdown'
 
   const Header = () => (
+    
       <div className="Navbar">
           <Link href="/">
             <a className ="Logo">
@@ -20,9 +21,12 @@ import Dropdown from './Dropdown'
             <Link href="/access" >
                 <a className ="Navbar-link">アクセス</a>
             </Link>
-            <div className="Btn-link">
-                <Dropdown/>
+            <div className="Navbar-link">
+              <Dropdown/>
             </div>
+            <Link href="/contact" >
+                <a className ="Btn-link">予約</a>
+            </Link>
           </div>
 
       </div>

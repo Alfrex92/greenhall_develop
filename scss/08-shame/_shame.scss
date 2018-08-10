@@ -27,10 +27,18 @@
     }
     .i-mail {
         color: colors-map($colors,blue,base);
-
-
     }
+}
 
 
-
+.ContactForm {
+    .MultiTimeTable td {
+        width: 23.375rem;
+    }
+    .MultiTimeTable-content {
+        min-width: 32.3125rem;
+    }
+    .MultiTimeTable-title{
+        width: 14.75rem;
+    }
 }
