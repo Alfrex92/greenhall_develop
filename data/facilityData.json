@@ -7,7 +7,7 @@
         "image" : "room-201",
         "use": "授業、セミナー等",
         "type": "コワーキングスペース",
-        "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=m1aick8rp08tfn9la6u15ofoq4%40group.calendar.google.com&amp;ctz=Asia/Tokyo",
+        "calendar" : "https://www.google.com/calendar/embed?&src=m1aick8rp08tfn9la6u15ofoq4%40group.calendar.google.com&amp;ctz=Asia/Tokyo",
         "price" :"1,000円/1時間　500円/30分",
         "size" : "51㎡（15坪)",
         "height" : "2.2m",
@@ -43,7 +43,7 @@
         "picture" : [
             "green-hall_room-203_picture-1", "green-hall_room-203_picture-2"
             ],
-        "calendar" : "https://calendar.google.com/calendar/embed?mode=AGENDA&src=j32l1s791av4hc0giibbimpdco%40group.calendar.google.com&ctz=Asia/Tokyo",
+        "calendar" : "https://calendar.google.com/calendar/embed?&src=j32l1s791av4hc0giibbimpdco%40group.calendar.google.com&ctz=Asia/Tokyo",
         "amenities": [
             {
                 "name" : "Equipment",
@@ -74,7 +74,7 @@
         "picture" : [
             "green-hall_room-304_picture-1", "green-hall_room-304_picture-2","green-hall_room-304_picture-3","green-hall_room-304_picture-4", "green-hall_room-304_picture-5","green-hall_room-304_picture-6"
             ],
-        "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=vhv08gpb7tpnrh6g626hk9ep9o%40group.calendar.google.com&ctz=Asia/Tokyo",
+        "calendar" : "https://www.google.com/calendar/embed?&src=vhv08gpb7tpnrh6g626hk9ep9o%40group.calendar.google.com&ctz=Asia/Tokyo",
         "amenities": [
             {
                 "name" : "Equipment",
@@ -104,7 +104,7 @@
         "picture" : [
             "green-hall_room-401_picture-1", "green-hall_room-401_picture-2"
             ],
-        "calendar" : "https://www.google.com/calendar/embed?mode=AGENDA&src=7ap2jmvrlc13sfov89816q32g0%40group.calendar.google.com&ctz=Asia/Tokyo",
+        "calendar" : "https://www.google.com/calendar/embed?&src=7ap2jmvrlc13sfov89816q32g0%40group.calendar.google.com&ctz=Asia/Tokyo",
         "amenities": [
             {
                 "name" : "Equipment",

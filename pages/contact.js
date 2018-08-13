@@ -8,7 +8,7 @@ import "../scss/styles.scss"
 
 export default() => (<Home>
 	<Head>
-		<title>自由が丘グリーンホール、緑陰レンタルスペース</title>
+		<title>予約 | 自由が丘グリーンホール</title>
 		<link rel="canonical" href=""/>
 		<meta name="description" content="自由が丘の緑陰レンタルスペース･貸し会議室、展示会・説明会・会議・研修・セミナー・など用途に合わせてご利用いただけます"/>
 		<meta property="og:title" content="自由が丘グリーンホール、緑陰レンタルスペース"/>
