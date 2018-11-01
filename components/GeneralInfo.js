@@ -10,7 +10,7 @@ export default () => (
         </div>
         <div className="GeneralInfo-item">
             <i className="i-clock"></i>
-            <p className="GeneralInfo-text">10:00 AM - 10:00 PM</p>
+            <p className="GeneralInfo-text">09:00 AM - 10:00 PM</p>
         </div>
 
     </section>

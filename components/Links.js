@@ -17,7 +17,7 @@ export default (props) => (
             <a onClick={props.onClick}>アクセス</a>
         </Link>
         <Link href="/contact">
-            <a className="Btn-link" onClick={props.onClick}>予約</a>
+            <a className="Btn-link" onClick={props.onClick}>問い合わせ</a>
         </Link>
     </div>
 

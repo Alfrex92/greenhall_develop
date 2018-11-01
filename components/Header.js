@@ -13,19 +13,19 @@ import Dropdown from './Dropdown'
           <div className="Navbar-menu">
             <Menu/>
           </div>
-          <div className="Navbar-right">
-
+          <div className="Navbar-right"> 
+            <a href="#steps" className ="Navbar-link">ご利用の流れ</a>           
+            <div className="Navbar-link">
+              <Dropdown/>
+            </div>
             <Link href="/faq">
             <a className ="Navbar-link">よくある質問</a>
             </Link>
             <Link href="/access" >
                 <a className ="Navbar-link">アクセス</a>
             </Link>
-            <div className="Navbar-link">
-              <Dropdown/>
-            </div>
             <Link href="/contact" >
-                <a className ="Btn-link">予約</a>
+                <a className ="Btn-link">問い合わせ</a>
             </Link>
           </div>
 
