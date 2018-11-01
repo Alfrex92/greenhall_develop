@@ -15,7 +15,7 @@ export default () => (
         </table>
     </div>
 
-    <p className="MultiTimeTable-caption">パーティースペース、飲み放題付ケータリングサービスご希望の場合には別途ご相談ください。</p>
+    <p className="MultiTimeTable-caption">パーティースペース <br/>＊ケータリングサービスご希望の場合には別途ご相談ください。</p>
     </div>
     
 )
