@@ -14,7 +14,6 @@ import Dropdown from './Dropdown'
             <Menu/>
           </div>
           <div className="Navbar-right"> 
-            <a href="#steps" className ="Navbar-link">ご利用の流れ</a>           
             <div className="Navbar-link">
               <Dropdown/>
             </div>

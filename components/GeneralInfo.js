@@ -2,11 +2,11 @@ export default () => (
     <section className="GeneralInfo container ComponentSeparation">
         <div className="GeneralInfo-item">
             <i className="i-facebook"></i>
-            <a className="GeneralInfo-text" href="https://www.facebook.com/greenhall3424/">/greenhall3424</a>
+            <a className="GeneralInfo-text" target="_blank" rel="noopener" href="https://www.facebook.com/greenhall3424/">/greenhall3424</a>
         </div>
         <div className="GeneralInfo-item">
             <i className="i-mail"></i>
-            <a className="GeneralInfo-text" href="mailto:info@green-hall.com">info@green-hall.com</a>
+            <a className="GeneralInfo-text" target="_blank" rel="noopener" href="mailto:greencafe_info@yahoo.co.jp">greencafe_info@yahoo.co.jp</a>
         </div>
         <div className="GeneralInfo-item">
             <i className="i-clock"></i>
