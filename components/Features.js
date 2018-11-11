@@ -19,7 +19,7 @@ export default (props) => (
         </div>
     </div>
    <div className="Features-two">
-            <h3 className="t3">緑陰スペース穏やかな雰囲気、木陰でもミーティングでき、詳細にご相談ください</h3>
+            <h3 className="t3">緑蔭スペース穏やかな雰囲気、木陰でもミーティングでき、詳細にご相談ください</h3>
         <div className="Features-illustration">
             <figure className="Features-photo">
                 <img src="./static/img/green-hall_shishiodoshi.jpg" alt="" className="Features-img"/>
