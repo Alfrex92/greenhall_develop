@@ -26,6 +26,7 @@ export default() => (<Home>
 		<meta name="twitter:image" content=""/>
 		<meta name="twitter:description" content="自由が丘の緑蔭レンタルスペース･貸し会議室、展示会・説明会・会議・研修・セミナー・など用途に合わせてご利用いただけます"/>
 		<meta name="twitter:title" content="自由が丘グリーンホール、緑蔭レンタルスペース"/>
+		<meta name="google-site-verification" content="F4TJRlscWWM0WTy3JJ0_lsxs41w2kwjUxN8oN8SynJY" />
 	</Head>
 	<div className="Index">
 		<HeroImage/>
