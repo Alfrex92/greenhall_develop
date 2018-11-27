@@ -21,7 +21,7 @@ export default () => (
         <p> <strong>三菱東京ＵＦＪ銀行　自由が丘駅前支店　普通　1109149　自由が丘グリーンホール</strong></p>
         <TableCancel/>
         <div className="ContactForm-btn">
-         <a className="Btn-link" href="https://ssl1.secure-c.net/~green-hall/contact/apply3.html">予約</a>
+         <a className="Btn-link" href="https://contact.greenhall.org">予約</a>
         </div>
     </div>
 )
